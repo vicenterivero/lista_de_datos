@@ -1,0 +1,52 @@
+@import './base.css';
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caja{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 50%;
+  max-width: 80%;
+  color: black;
+
+}
+.item{
+  font-size: 20px;
+  border: 1px solid rgb(152, 152, 152);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  display: flex;
+	-webkit-animation: shadow-pop-tr-i 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr-i 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  
+}
+.check{
+	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  text-decoration: dashed;
+  background-color: #e1e391;
+  margin: 10px 0 15px 0;
+
+}
+.delete{
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+input,select{
+  padding: 8px;
+  margin:10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
